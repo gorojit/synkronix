@@ -1,0 +1,155 @@
+body{
+ 
+    color: white;
+    background: url(./img/Ellipse.png);
+    background-color:#1C1C1C;
+    margin: 0; /* Removes default margin */
+   
+    width: 100%;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;
+
+    background-size:cover; /* Ensures the entire image fits within the viewport */
+    background-position: center; /* Centers the image */
+  
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+ 
+}
+
+ img{
+    width: 90px;
+    height: 90px;
+  
+
+}
+
+ .connect{
+    background-color:#B83F1D;
+    border: 2px solid #ED7D2E;
+    border-radius: 50px;
+    font-size: 1rem;
+    height: 50px;
+    padding: 10px;
+   
+  
+}
+
+.soon{
+    background-color:#1C1C1C;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    height: 50px;
+    color: white;
+    padding: 10px;
+   
+
+}
+
+.main{
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+ 
+   /* max-width: 600px;
+    min-width: 600px;*/
+}
+.main-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ 
+    
+}
+
+h1{
+    font-size:8rem;
+
+    margin: 0;
+   
+}
+
+h2{
+    font-size: 1rem;
+    max-width: 600px;
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+
+@media screen and (max-width: 690px) {
+   
+    h1{
+        font-size:4rem;
+         margin: 0;
+         text-align: center;
+       
+    }
+
+    h2{
+        font-size: 0.7rem;
+        text-align: center;
+      
+
+    }
+  
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content:center;
+    }
+
+    .soon{
+      
+       
+        align-items: center;
+        text-align: center;
+
+ 
+       
+    }
+    .main-2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .connect{
+       
+        font-size: 0.5rem;
+        height: 30px;
+        padding: 6px;
+       
+      
+    }
+
+    img{
+        width: 50px;
+        height: 50px;
+      
+    }
+    
+  }
+
+
+  @media screen and (max-width: 390px){
+    h1{
+        font-size:3rem;
+         margin: 0;
+         text-align: center;
+       
+    }
+
+  }
+  
