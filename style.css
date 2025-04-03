@@ -1,7 +1,7 @@
 body{
  
     color: white;
-    background: url(./img/Ellipse.png);
+    background: url(Ellipse.png);
     background-color:#1C1C1C;
     margin: 0; /* Removes default margin */
    
@@ -79,9 +79,10 @@ h1{
 h2{
     font-size: 1rem;
     max-width: 600px;
-    font-family: "Cedarville Cursive", cursive;
+     font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  font-style:italic;
   
 }
 
